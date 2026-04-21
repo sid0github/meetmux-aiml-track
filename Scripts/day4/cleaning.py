@@ -1,6 +1,8 @@
 import pandas as pd
 
-df = pd.read_csv('Scripts/data.csv')
+df = pd.read_csv(r'C:\Users\magsi\Desktop\AI-ML\Scripts\day4\data.csv')
+
+print(df.head())
 
 print("missing values: \n ", df.isnull().sum())
 
